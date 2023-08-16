@@ -6,22 +6,22 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
-  font_size: L
+  theme_day: tryps
+  theme_night: tryps
+  font: tryps
+  font_size: M
 
 # SEO
 
 marketing:
   seo:
-    site_type: Person
+    site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'Trypanosomatics'
+    description: 'The Trypanosomatics Laboratory Website'
+    twitter: 'trypanosomatics'
   analytics:
-    google_analytics: ''
+    google_analytics: 'UA-1674362-6'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''  
@@ -42,10 +42,9 @@ header:
     highlight_active_link: true
 
 # Site footer
-
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© 2018 &ndash; {year}. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -53,14 +52,12 @@ footer:
       allow_commercial: false
 
 # Localization
-
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
   address_format: en-us
 
 # Site features
-
 features:
   syntax_highlighter:
     theme_light: github-light
@@ -70,7 +67,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/trypanosomatics/academic-starter'
     content_dir: content
     branch: main
   avatar:
@@ -96,12 +93,11 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: ''
-    api_key: ''
+    provider: 'google'
+    api_key: 'AIzaSyCA3WRcrUWprPLefbiLa0FiS5AJymB8DOU'
     zoom: 15
 
 # Extensions
-
 extensions:
   cms:
     branch: main
@@ -110,7 +106,9 @@ extensions:
     enable: true
 
 # Security
-
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
+
+# Remove powered by footer legend
+i_am_a_sponsor: true
