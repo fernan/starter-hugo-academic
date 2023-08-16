@@ -34,7 +34,7 @@ main:
     url: "#people"
     weight: 55
   - name: Contact
-    url: '#contact'
+    url: '#section-contact'
     weight: 60
 
 # Link to a PDF of your resume/CV from the menu.
